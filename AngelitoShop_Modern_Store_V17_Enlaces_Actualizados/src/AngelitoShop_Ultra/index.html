@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#7c3aed"><meta name="description" content="Angelito Shop — catálogo inmersivo de belleza, perfumes y cuidado personal.">
+<title>Angelito Shop — Immersive Catalog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+
+<style id="v10-premium-overrides">
+:root{--v10-pink:#ff4db8;--v10-pink2:#ff86cf;--v10-purple:#8b5cf6;--v10-bg:#07070a;--v10-panel:#101015;--v10-white:#fff;--v10-muted:#aaa3b3;--v10-ease:cubic-bezier(.16,1,.3,1)}
+*{box-sizing:border-box}html{scroll-padding-top:76px}body{background:radial-gradient(circle at 20% 0%,rgba(255,60,180,.08),transparent 28%),radial-gradient(circle at 90% 20%,rgba(139,92,246,.07),transparent 25%),#07070a}.app{background:transparent}
+.topbar{height:68px;backdrop-filter:blur(22px) saturate(1.3);background:rgba(7,7,10,.78)!important;border-bottom:1px solid rgba(255,255,255,.07);position:sticky;top:0;z-index:1000}.logo-lockup{transition:transform .45s var(--v10-ease)}.logo-lockup:hover{transform:translateY(-2px) scale(1.02)}
+.hero-panel,.category-chip,.showcase-block,.product-card,.pdf-catalog-card,.perf-card{isolation:isolate;overflow:hidden}.hero-panel:before,.category-chip:before,.showcase-block:before,.product-card:before,.pdf-catalog-card:before,.perf-card:after{content:"";position:absolute;inset:-1px;z-index:-1;border-radius:inherit;background:linear-gradient(120deg,transparent 20%,rgba(255,255,255,.13) 48%,transparent 72%);transform:translateX(-130%);transition:transform 1.1s var(--v10-ease);pointer-events:none}.hero-panel:hover:before,.category-chip:hover:before,.showcase-block:hover:before,.product-card:hover:before,.pdf-catalog-card:hover:before,.perf-card:hover:after{transform:translateX(130%)}
+.hero-panel img,.category-chip img,.showcase-image img,.product-image img,.pdf-catalog-image img,.perf-card img{transition:transform .9s var(--v10-ease),filter .9s var(--v10-ease)}.hero-panel:hover img,.category-chip:hover img,.showcase-card:hover .showcase-image img,.product-card:hover .product-image img,.pdf-catalog-card:hover .pdf-catalog-image img{transform:scale(1.045)}
+.perfume-carousel{min-height:610px;border-radius:30px;border:1px solid rgba(255,255,255,.08);background:radial-gradient(circle at 50% 30%,rgba(255,76,184,.12),transparent 34%),linear-gradient(145deg,#111015,#08080b 70%);box-shadow:0 35px 100px rgba(0,0,0,.42);overflow:hidden}.perfume-carousel:after{content:"";position:absolute;inset:auto 10% 3%;height:120px;background:radial-gradient(ellipse,rgba(255,66,184,.20),transparent 68%);filter:blur(25px);pointer-events:none}.perf-card{border-radius:28px!important;background:linear-gradient(145deg,rgba(255,255,255,.11),rgba(255,255,255,.025))!important;border:1px solid rgba(255,255,255,.12)!important;box-shadow:0 30px 80px rgba(0,0,0,.5)!important}.perf-card.active{box-shadow:0 35px 100px rgba(0,0,0,.68),0 0 70px rgba(255,65,182,.2)!important}.perf-card img{object-fit:contain!important;padding:9%!important;filter:drop-shadow(0 24px 22px rgba(0,0,0,.5))}.carousel-meta{z-index:20!important}.carousel-name-block strong{font-size:clamp(26px,4vw,52px)!important;line-height:1.03}.carousel-open-btn{min-height:50px!important;padding:0 24px!important;box-shadow:0 10px 35px rgba(255,65,182,.18);transition:.35s var(--v10-ease)}.carousel-open-btn:hover{transform:translateY(-3px);box-shadow:0 15px 45px rgba(255,65,182,.3)}
+.product-card,.pdf-catalog-card,.showcase-card{transition:transform .55s var(--v10-ease),box-shadow .55s var(--v10-ease),border-color .55s ease}.product-card:hover,.pdf-catalog-card:hover{transform:translateY(-8px);box-shadow:0 24px 60px rgba(0,0,0,.34)}
+.product-image,.pdf-catalog-image,.showcase-image{background:radial-gradient(circle at 50% 42%,rgba(255,255,255,.09),transparent 58%)!important}.product-image img,.pdf-catalog-image img,.showcase-image img{object-fit:contain!important;filter:drop-shadow(0 18px 20px rgba(0,0,0,.34))}.product-open{position:relative;z-index:4}
+.overlay{backdrop-filter:blur(18px);background:rgba(0,0,0,.72)!important}.product-modal{box-shadow:0 40px 120px rgba(0,0,0,.62),0 0 0 1px rgba(255,255,255,.08)!important}.viewer{background:radial-gradient(circle at 50% 42%,rgba(255,77,184,.18),transparent 45%),linear-gradient(145deg,#151218,#09090c)!important;overflow:hidden}.viewer-object{transition:transform .18s ease-out!important;filter:drop-shadow(0 35px 28px rgba(0,0,0,.48))}.viewer-object:after{content:"";position:absolute;inset:12%;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.16),transparent 65%);mix-blend-mode:screen;pointer-events:none}.viewer-controls button{transition:.3s var(--v10-ease)}.viewer-controls button:hover{transform:translateY(-2px)}
+.search-wrap{box-shadow:0 12px 35px rgba(0,0,0,.22)}.filter-row{scrollbar-width:none}.filter-row::-webkit-scrollbar{display:none}
+/* responsive first: phones, tablets, desktop */
+@media(max-width:700px){body{font-size:14px}.topbar{height:62px;padding:0 10px}.topbar .main-nav{display:none}.logo-lockup span{font-size:12px}.top-actions .icon-btn{width:38px;height:38px}.selection-btn span{display:none}.selection-btn{width:40px;padding:0;justify-content:center}.store-home,.section-pad{padding-left:12px!important;padding-right:12px!important}.home-hero-head{display:block!important;padding:22px 8px 10px!important}.hero-copy h2{font-size:clamp(34px,10vw,54px)!important;line-height:.94!important}.hero-copy p{max-width:38rem}.hero-grid{grid-template-columns:1fr!important;gap:10px!important}.hero-panel{min-height:240px!important;border-radius:20px!important}.hero-panel:first-child{min-height:285px!important}.perfume-carousel{min-height:590px;margin:8px 0;border-radius:24px}.carousel-track{height:390px!important}.perf-card{width:min(72vw,330px)!important;height:min(78vw,370px)!important}.carousel-meta{padding:0 18px 22px!important}.carousel-name-block strong{font-size:clamp(25px,8vw,38px)!important}.carousel-desc,.carousel-name-block>span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.carousel-open-btn{width:100%;margin-top:12px}.category-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px!important}.category-chip{min-height:190px!important;border-radius:18px!important}.category-chip img{height:115px!important}.showcase-block{display:block!important;border-radius:22px!important;margin:16px 0!important}.showcase-banner{min-height:185px!important}.showcase-products{grid-template-columns:repeat(2,minmax(0,1fr))!important}.showcase-card{min-width:0!important}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}.product-card{border-radius:16px!important}.product-image{height:180px!important}.product-copy{padding:10px!important}.product-copy h3{font-size:13px!important;line-height:1.1!important}.product-copy p{font-size:10px!important;line-height:1.35!important;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.product-open{font-size:10px!important;margin:0 10px 10px!important;min-height:38px}.pdf-catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}.pdf-catalog-card{border-radius:16px!important}.pdf-catalog-image{height:180px!important}.pdf-catalog-copy{padding:9px!important}.pdf-catalog-copy strong{font-size:12px!important}.side-menu{width:min(88vw,360px)!important}.auth-shell{padding:14px!important}.auth-copy{display:none}.auth-card{width:100%!important}.catalog-loading{padding:20px!important}.sound-toggle{bottom:calc(12px + env(safe-area-inset-bottom));right:12px}.section-heading{display:block!important}.section-heading .search-wrap{margin-top:14px;width:100%}.filter-row{overflow-x:auto!important;display:flex!important;flex-wrap:nowrap!important;padding-bottom:5px}.filter{flex:0 0 auto}.product-modal{width:calc(100vw - 16px)!important;max-height:calc(100svh - 16px)!important;overflow:auto!important;border-radius:24px!important}.product-modal .viewer{min-height:340px!important}.modal-info{padding:18px!important}.modal-actions{grid-template-columns:1fr!important}.viewer-controls{flex-wrap:wrap}.viewer-static{display:none}.intro-center h1{font-size:clamp(40px,12vw,68px)!important}.intro-center p{font-size:13px}.cta-xl{width:100%;justify-content:center}.intro-bottom{padding:0 16px 18px!important}
+}
+@media(min-width:701px) and (max-width:1100px){.product-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}.showcase-products{grid-template-columns:repeat(3,minmax(0,1fr))!important}.hero-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.hero-panel:first-child{grid-column:1/-1}.perfume-carousel{min-height:650px}}
+@media(min-width:1101px){.product-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important}.showcase-products{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important}}
+</style>
+
+</head>
+<body>
+<audio id="storeAudio" preload="auto" loop>
+  <source src="assets/audio/up-una-aventura.mp3" type="audio/mpeg">
+</audio>
+<div id="scrollProgress" aria-hidden="true"></div><div class="a11-glow" id="a11Glow"></div>
+<div id="cursorGlow"></div><div id="noise"></div><button id="soundToggle" class="sound-toggle" aria-label="Activar música ambiente" aria-pressed="false"><span class="sound-bars"><i></i><i></i><i></i><i></i></span><span>Ambiente</span></button>
+<!-- INTRO / VISUAL ENTRY -->
+<section id="intro" class="intro" aria-label="Entrada al catálogo">
+  <video id="introVideo" class="intro-video" autoplay muted playsinline preload="auto" poster="assets/intro-user-poster.jpg">
+    <source src="assets/intro-user.mp4" type="video/mp4">
+  </video>
+  <audio id="introAudio" preload="auto">
+    <source src="assets/audio/calmness-for-once.mp3" type="audio/mpeg">
+  </audio>
+  <div class="intro-vignette"></div>
+  <div class="intro-center">
+    <div class="intro-kicker">BEAUTY · FRAGRANCE · CARE</div>
+    <h1>Descubre lo que<br><em>te representa.</em></h1>
+    <p>Una experiencia visual para explorar tu próxima favorita.</p>
+    <button id="enterIntro" class="magnetic cta-xl"><span>Comenzar experiencia</span><i>↗</i></button>
+    <small class="intro-sound-note">Toca para iniciar la experiencia con sonido</small>
+  </div>
+  <div class="intro-bottom"><span>EXPLORE</span><span class="intro-line"></span><span>01 — 06</span></div>
+</section>
+
+<!-- AUTH -->
+<section id="auth" class="auth-screen is-hidden">
+ <div class="auth-backdrop"><div class="mesh mesh-1"></div><div class="mesh mesh-2"></div><div class="mesh mesh-3"></div></div>
+ <div class="auth-shell">
+   <div class="auth-copy">
+     <span class="eyebrow">ACCESS / ANGELITO SHOP</span>
+     <h2>Entra al catálogo<br><em>sin perder el estilo.</em></h2>
+     <p>Tu acceso guarda tus preferencias y te permite consultar productos de forma más rápida.</p>
+     <div class="auth-perks"><span>✦ Experiencia personalizada</span><span>✦ Favoritos y selección</span><span>✦ Consulta directa</span></div>
+   </div>
+   <div class="auth-card glass-panel">
+      <div class="auth-head"><img src="assets/logo-circle.png" alt="Logo"><div><b>Angelito Shop</b><small>Acceso seguro</small></div></div>
+      <div class="auth-tabs"><button class="auth-tab active" data-mode="login">Iniciar sesión</button><button class="auth-tab" data-mode="register">Crear cuenta</button></div>
+      <form id="authForm" autocomplete="on">
+        <label class="field name-field"><span>Nombre</span><input id="nameInput" name="name" autocomplete="name" placeholder="Tu nombre" /></label>
+        <label class="field"><span>Correo electrónico</span><input id="emailInput" type="email" name="email" autocomplete="email" required placeholder="tu@correo.com" /></label>
+        <label class="field"><span>Contraseña</span><input id="passwordInput" type="password" name="password" autocomplete="current-password" required minlength="6" placeholder="••••••••" /></label>
+        <div class="password-tools"><label><input id="showPassword" type="checkbox"> Mostrar contraseña</label><button type="button" id="forgotBtn">¿Olvidaste tu contraseña?</button></div>
+        <button class="primary-btn" type="submit"><span id="authSubmitText">Entrar al catálogo</span><i>→</i></button>
+      </form>
+      <div class="divider"><span>o continúa con</span></div>
+      <button id="googleBtn" class="google-btn"><span class="google-icon">G</span><span>Continuar con Google</span><span>↗</span></button>
+      <p class="auth-note">Al continuar aceptas el uso de tu cuenta para guardar preferencias y actividad del catálogo.</p>
+      <div id="authStatus" class="auth-status"></div>
+   </div>
+ </div>
+</section>
+
+<!-- LOADING -->
+<div id="catalogLoading" class="catalog-loading is-hidden"><div class="loading-particles"></div><div class="loading-core"><div class="loading-ring"></div><img src="assets/logo-circle.png" alt="Angelito Shop"><div class="loading-float lf-1">✦</div><div class="loading-float lf-2">✧</div><div class="loading-float lf-3">•</div></div><span class="eyebrow">PREPARANDO EXPERIENCIA</span><h2>Abriendo tu catálogo</h2><p>Preparando fragancias, beauty y cuidado…</p><div class="loading-bar"><span></span></div><small>Beauty · Fragrance · Care</small></div>
+
+<!-- APP -->
+<div id="app" class="app is-hidden">
+<header class="topbar">
+ <button id="menuBtn" class="icon-btn menu-btn" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+ <a href="#home" class="logo-lockup"><img src="assets/logo-circle.png" alt="Angelito Shop"><span>ANGELITO<span>SHOP</span></span></a>
+ <nav class="main-nav"><a href="#home">Inicio</a><a href="#perfumes">Perfumes</a><a href="#beauty">Beauty</a><a href="#care">Care</a><a href="#explore">Explorar</a></nav>
+ <div class="top-actions"><button id="searchBtn" class="icon-btn" aria-label="Buscar">⌕</button><button id="wishBtn" class="icon-btn" aria-label="Favoritos">♡</button><button id="selectionBtn" class="selection-btn"><span>Mi selección</span><b id="selectionCount">0</b></button></div>
+</header>
+<div id="sideMenu" class="side-menu"><div class="side-head"><span>MENU / 01</span><button id="closeMenu" class="icon-btn">×</button></div><div class="side-user"><div id="userAvatar" class="avatar">A</div><div><strong id="menuUserName">Invitado</strong><small id="menuUserEmail">—</small></div></div><div class="side-links"><a href="#home">Inicio <span>01</span></a><a href="#perfumes">Perfumes <span>02</span></a><a href="#beauty">Beauty <span>03</span></a><a href="#care">Care <span>04</span></a><a href="#explore">Explorar <span>05</span></a><button id="profileMenu">Mi cuenta <span>06</span></button><button id="adminMenu" class="admin-link is-hidden">Panel de administrador <span>07</span></button></div><div class="side-foot"><button id="logoutBtn">Cerrar sesión ↗</button><small>Angelito Shop · Tu espacio de belleza</small></div></div>
+<div id="sideOverlay" class="side-overlay"></div>
+
+<main>
+<!-- HOME -->
+<section id="home" class="store-home">
+  <div class="home-hero-head">
+    <div class="hero-copy reveal">
+      <span class="eyebrow">BELLEZA · ESTILO · TU ESENCIA</span>
+      <h2>Tu mejor versión,<br><em>todos los días.</em></h2>
+      <p>Perfumes, maquillaje, skincare y accesorios presentados como una tienda editorial, visual y fácil de recorrer.</p>
+      <div class="hero-actions"><button class="primary-btn magnetic" data-scroll="#perfumes">Explorar perfumes <i>↗</i></button><button class="ghost-btn" data-scroll="#explore">Ver catálogo <i>↓</i></button></div>
+    </div>
+  </div>
+  <div class="hero-panels">
+    <button class="hero-panel hero-panel-photo hero-panel-perfume" data-scroll="#perfumes"><div class="panel-copy"><span>PERFUMES</span><strong>Aromas que<br><em>cuentan tu historia.</em></strong><b>Explorar ↗</b></div><img src="assets/perfumes/pdf-01.png" alt="Live Adventure L’Bel"></button>
+    <button class="hero-panel hero-panel-photo hero-panel-makeup" data-scroll="#explore"><div class="panel-copy"><span>MAQUILLAJE</span><strong>Colores que<br><em>te hacen brillar.</em></strong><b>Ver productos ↗</b></div><img src="assets/catalog/products/p-04.webp" alt="Maquillaje"></button>
+    <button class="hero-panel hero-panel-photo hero-panel-care" data-scroll="#explore"><div class="panel-copy"><span>ACCESORIOS</span><strong>Detalles que<br><em>completan tu estilo.</em></strong><b>Descubrir ↗</b></div><img src="assets/accessories/wallet.png" alt="Cartera"></button>
+  </div>
+  <div class="benefit-strip"><div>✦ <b>Envío gratis</b><small>En compras mayores a $1,000</small></div><div>♢ <b>Compra segura</b><small>Tus datos están protegidos</small></div><div>▣ <b>Pagos flexibles</b><small>Tarjetas, PayPal y más</small></div><div>♡ <b>Atención personalizada</b><small>Estamos para ayudarte</small></div></div>
+</section>
+
+<section class="marquee-strip"><div>ANGELITO SHOP <i>✦</i> FRAGRANCE <i>✦</i> BEAUTY <i>✦</i> CARE <i>✦</i> ANGELITO SHOP <i>✦</i> FRAGRANCE <i>✦</i> BEAUTY <i>✦</i> CARE</div></section>
+
+<!-- PERFUME CAROUSEL -->
+<section id="perfumes" class="perfume-section section-pad">
+ <div class="section-heading reveal"><div><span class="eyebrow">PERFUMES FAVORITOS</span><h2>Aromas que <em>te definen.</em></h2></div><p>Desliza para cambiar de fragancia. La tarjeta central es siempre la protagonista.</p></div>
+ <div class="perfume-carousel" id="perfumeCarousel">
+   <div class="carousel-backdrop"><span>FRAGRANCE</span><span>01—22</span></div>
+   <button class="carousel-arrow left" id="prevPerfume">←</button><button class="carousel-arrow right" id="nextPerfume">→</button>
+   <div class="carousel-track" id="carouselTrack"></div>
+   <div class="carousel-meta">
+  <div class="carousel-name-block"><small>FRAGANCIA DESTACADA</small><strong id="carouselName">—</strong><div id="carouselTags" class="carousel-tags"></div><span id="carouselDesc">—</span></div>
+  <button id="carouselOpen" class="carousel-open-btn">Ver información <i>↗</i></button>
+ </div>
+   <div class="carousel-progress"><span id="carouselProgress"></span></div>
+ </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="category-section section-pad" id="beauty">
+  <div class="section-heading reveal"><div><span class="eyebrow">CATEGORÍAS</span><h2>Descubre por <em>categoría.</em></h2></div><p>Una vista limpia para encontrar maquillaje, bolsos, cuidado, cabello y todo lo que buscas.</p></div>
+  <div class="category-chips">
+    <button class="category-chip" data-filter="maquillaje"><img src="assets/catalog/products/p-10.webp" alt="Maquillaje"><span>01</span><b>Maquillaje</b><small>Color · textura · expresión</small><i>↗</i></button>
+    <button class="category-chip" data-filter="perfumes"><img src="assets/perfumes/pdf-05.png" alt="Perfume"><span>02</span><b>Perfumes</b><small>Fragancias para cada momento</small><i>↗</i></button>
+    <button class="category-chip" data-filter="skincare"><img src="assets/catalog/products/p-21.webp" alt="Skincare"><span>03</span><b>Skincare</b><small>Rituales para todos los días</small><i>↗</i></button>
+    <button class="category-chip" data-filter="cabello"><img src="assets/catalog/products/p-29.webp" alt="Cabello"><span>04</span><b>Cabello</b><small>Brillo · cuidado · movimiento</small><i>↗</i></button>
+  </div>
+</section>
+
+<!-- CATEGORY SHOWCASES -->
+<section class="showcase-section section-pad" id="care">
+  <div class="showcase-block reveal"><div class="showcase-banner banner-makeup"><span>MAQUILLAJE</span><h3>Resalta tu belleza,<br><em>sin límites.</em></h3><button class="ghost-btn" data-filter-jump="maquillaje">Ver todo ↗</button></div><div class="showcase-products" id="showcaseMakeup"></div></div>
+  <div class="showcase-block reveal"><div class="showcase-banner banner-skincare"><span>SKINCARE</span><h3>Tu rutina,<br><em>tu momento.</em></h3><button class="ghost-btn" data-filter-jump="skincare">Ver todo ↗</button></div><div class="showcase-products" id="showcaseSkin"></div></div>
+  <div class="showcase-block reveal"><div class="showcase-banner banner-hair"><span>CABELLO</span><h3>Brillo y cuidado<br><em>en cada detalle.</em></h3><button class="ghost-btn" data-filter-jump="cabello">Ver todo ↗</button></div><div class="showcase-products" id="showcaseHair"></div></div>
+  <div class="showcase-block reveal"><div class="showcase-banner banner-accessories"><span>ACCESORIOS</span><h3>Detalles que<br><em>completan tu look.</em></h3><button class="ghost-btn" data-scroll="#home">Volver arriba ↗</button></div><div class="showcase-products static-accessories"><article class="showcase-card"><div class="showcase-image"><img src="assets/accessories/wallet.png" alt="Cartera"></div><div class="showcase-copy"><small>Accesorios</small><strong>Cartera de estilo</strong><span>Ver detalle ↗</span></div></article><article class="showcase-card"><div class="showcase-image"><img src="assets/accessories/watch.png" alt="Reloj"></div><div class="showcase-copy"><small>Accesorios</small><strong>Reloj destacado</strong><span>Ver detalle ↗</span></div></article></div></div>
+</section>
+
+<!-- EXPLORE -->
+<section id="explore" class="explore-section section-pad"><div class="section-heading reveal"><div><span class="eyebrow">TODOS LOS PRODUCTOS</span><h2>Descubre los <em>99 productos.</em></h2></div><div class="search-wrap"><input id="searchInput" placeholder="Buscar producto, categoría..." autocomplete="off"><span>⌕</span></div></div><div class="filter-row" id="filters"><button class="filter active" data-filter="all">Todo</button><button class="filter" data-filter="perfumes">Perfumes</button><button class="filter" data-filter="maquillaje">Maquillaje</button><button class="filter" data-filter="cuidado">Cuidado</button><button class="filter" data-filter="skincare">Skincare</button><button class="filter" data-filter="cabello">Cabello</button><button class="filter" data-filter="accesorios">Accesorios</button></div><div class="product-grid" id="productGrid"></div></section>
+
+<section class="belcorp-section section-pad" id="belcorpCatalog"><div class="belcorp-card reveal"><div class="belcorp-mark">BELCORP <span>✦</span> CATÁLOGO DIGITAL</div><div class="belcorp-copy"><span class="eyebrow">DESCUBRE MÁS PRODUCTOS</span><h2>Explora el catálogo <em>Belcorp.</em></h2><p>Encuentra más fragancias, maquillaje y productos de belleza en el catálogo digital oficial.</p><a class="primary-btn" href="https://catalogodigital.somosbelcorp.com/MX?consultant=MTY5MDUxMA==" target="_blank" rel="noopener noreferrer">Abrir catálogo digital <i>↗</i></a></div><div class="belcorp-orbit" aria-hidden="true"><span>BEAUTY</span><b>✦</b><small>EXPLORE</small></div></div></section>
+
+<section class="location-section section-pad"><div class="location-card reveal"><div><span class="eyebrow">ANGELITO SHOP</span><h2>Una experiencia que<br><em>empieza aquí.</em></h2><p>Consulta nuestra ubicación y abre la ruta directamente en Google Maps.</p><a class="primary-btn" href="https://maps.app.goo.gl/Bj2HpmuZLbYH4kea6" target="_blank" rel="noopener">Abrir ubicación <i>↗</i></a></div><div class="map-orb"><div class="map-pin">✦</div><span>ANGELITO SHOP</span></div></div></section>
+</main>
+<footer class="footer section-pad"><div class="footer-brand"><img src="assets/logo-circle.png"><span>ANGELITO SHOP</span></div><div><small>CATÁLOGO DIGITAL · 2026</small><p>Beauty · Fragrance · Care · More</p></div><div class="footer-links"><a href="https://www.instagram.com/angelitoshop54?exln=YnB6dDZqbXNqbWFx" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.tiktok.com/@angelitoshop1" target="_blank" rel="noopener noreferrer">TikTok ↗</a><a href="https://wa.me/529615712599" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a></div></footer>
+</div>
+
+<!-- SEARCH OVERLAY -->
+<div id="searchOverlay" class="overlay"><div class="search-modal"><button class="close-overlay" data-close="searchOverlay">×</button><span class="eyebrow">SEARCH / 01</span><h2>¿Qué estás <em>buscando?</em></h2><input id="overlaySearch" placeholder="Perfume, labial, shampoo..." autofocus><div id="searchResults"></div></div></div>
+<!-- PRODUCT MODAL -->
+<div id="productModal" class="overlay"><div class="product-modal"><button class="close-overlay" data-close="productModal">×</button><div class="viewer"><div class="viewer-grid"></div><div class="viewer-label">VISTA DEL PRODUCTO</div><div id="viewerObject" class="viewer-object"><img id="modalProductImg" src="" alt="Producto"></div><div class="viewer-reflection"></div><div class="viewer-controls"><button id="zoomOut">−</button><button id="spinToggle" class="viewer-spin" aria-hidden="true" tabindex="-1">Giro automático</button><span class="viewer-static">Arrastra para girar</span><button id="zoomIn">+</button></div><div class="viewer-hint">Arrastra el producto para girarlo · el giro automático se activa suavemente</div></div><div class="modal-info"><span class="eyebrow" id="modalCategory">PRODUCT</span><h2 id="modalName">Producto</h2><p id="modalDesc">Descripción</p><div class="tag-list" id="modalTags"></div><div class="product-delivery"><div class="delivery-head"><span>ESTIMACIÓN DE ENTREGA</span><b id="deliveryRange">Calculando…</b></div><div class="delivery-date"><label for="deliveryDate">Si realizas el pedido el</label><input id="deliveryDate" type="date"></div><p>Referencia informativa para México: el despacho depende del cierre de campaña y de la zona. El plazo publicado por Belcorp contempla preparación y entrega en días hábiles.</p></div><div class="modal-actions"><button id="modalSelect" class="primary-btn">Añadir a mi selección <i>＋</i></button><button id="modalWhatsApp" class="whatsapp-btn">Solicitar información <i>↗</i></button><button id="modalShare" class="ghost-btn">Copiar enlace <i>⌘</i></button></div><small class="modal-tip">Vista limpia y centrada del producto. Usa + y − para acercar o alejar.</small></div></div></div>
+<!-- SELECTION -->
+<div id="selectionPanel" class="selection-panel"><div class="panel-head"><div><span class="eyebrow">YOUR SELECTION</span><h3>Mi selección</h3></div><button id="closeSelection" class="icon-btn">×</button></div><div id="selectionList" class="selection-list"></div><button id="selectionWhatsApp" class="primary-btn full">Consultar selección por WhatsApp <i>↗</i></button></div><div id="panelOverlay" class="side-overlay"></div>
+<!-- PROFILE -->
+<div id="profileOverlay" class="overlay"><div class="profile-modal"><button class="close-overlay" data-close="profileOverlay">×</button><span class="eyebrow">PROFILE / ACCESS</span><div class="profile-hero"><div id="profileAvatar" class="big-avatar">A</div><div><h2 id="profileName">Usuario</h2><p id="profileEmail">correo</p></div></div><div class="profile-stats"><div><b id="profileViews">0</b><span>interacciones</span></div><div><b id="profileSaved">0</b><span>seleccionados</span></div><div><b id="profileJoined">2026</b><span>miembro</span></div></div><button id="profileClose" class="ghost-btn full">Cerrar</button></div></div>
+<!-- ADMIN -->
+<div id="adminOverlay" class="overlay"><div class="admin-modal"><button class="close-overlay" data-close="adminOverlay">×</button><div class="admin-top"><div><span class="eyebrow">PRIVATE AREA / ADMIN</span><h2>Panel de <em>administrador.</em></h2><p>Usuarios e interacciones registradas en el catálogo.</p></div><div class="admin-badge">ADMIN</div></div><div class="admin-kpis"><div><small>USUARIOS</small><b id="adminUsers">0</b></div><div><small>INTERACCIONES</small><b id="adminInteractions">0</b></div><div><small>SELECCIONES</small><b id="adminSelections">0</b></div></div><div class="admin-toolbar"><input id="adminSearch" placeholder="Filtrar por nombre o correo"><button id="refreshAdmin" class="ghost-btn">Actualizar ↻</button></div><div class="admin-table-wrap"><table><thead><tr><th>Usuario</th><th>Correo</th><th>Último acceso</th><th>Actividad</th></tr></thead><tbody id="adminTable"></tbody></table></div><div id="adminEmpty" class="admin-empty">Conecta Firebase para ver registros reales entre dispositivos.</div></div></div>
+<div id="toast" class="toast"></div>
+<script src="firebase/firebase-config.js"></script>
+<nav id="a11BottomNav" aria-label="Navegación rápida">
+<button data-a11-nav="#home"><span class="a11-nav-icon">⌂</span><span class="a11-nav-label">Inicio</span></button>
+<button data-a11-nav="#perfumes"><span class="a11-nav-icon">✦</span><span class="a11-nav-label">Perfumes</span></button>
+<button data-a11-nav="#explore"><span class="a11-nav-icon">⌕</span><span class="a11-nav-label">Tienda</span></button>
+<button id="a11Account"><span class="a11-nav-icon">◯</span><span class="a11-nav-label">Mi cuenta</span></button>
+</nav>
+<script src="js/app.js"></script>
+<script src="js/a11-premium.js"></script>
+</body></html>

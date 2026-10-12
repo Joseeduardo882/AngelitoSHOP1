@@ -1,0 +1,186 @@
+[
+  {
+    "id": "extra-01",
+    "name": "MVE Adventure",
+    "category": "accesorios",
+    "description": "Reloj de estilo deportivo con presencia moderna y detalles marcados.",
+    "tags": "Relojes · Accesorios",
+    "image": "assets/catalog-transparent/extra-01.png"
+  },
+  {
+    "id": "extra-02",
+    "name": "Live L’Bel",
+    "category": "perfumes",
+    "description": "Fragancia masculina de perfil fresco y elegante, con una presentación sobria.",
+    "tags": "Perfume · Masculino",
+    "image": "assets/catalog-transparent/extra-02.png"
+  },
+  {
+    "id": "extra-03",
+    "name": "Experté L’Bel — Suero Anticaída",
+    "category": "cuidado",
+    "description": "Suero capilar con complejo Biotixyl, ácido hialurónico y cafeína.",
+    "tags": "Cabello · Cuidado",
+    "image": "assets/catalog-transparent/extra-03.png"
+  },
+  {
+    "id": "extra-04",
+    "name": "Chérie L’Bel",
+    "category": "perfumes",
+    "description": "Fragancia femenina de apariencia delicada y sofisticada.",
+    "tags": "Perfume · Femenino",
+    "image": "assets/catalog-transparent/extra-04.png"
+  },
+  {
+    "id": "extra-05",
+    "name": "Esika — Compacto de Maquillaje",
+    "category": "maquillaje",
+    "description": "Producto compacto de maquillaje para complementar tu rutina de belleza.",
+    "tags": "Maquillaje · Rostro",
+    "image": "assets/catalog-transparent/extra-05.png"
+  },
+  {
+    "id": "extra-06",
+    "name": "Esika — Base en Barra",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje en presentación compacta para una aplicación práctica.",
+    "tags": "Maquillaje · Rostro",
+    "image": "assets/catalog-transparent/extra-06.png"
+  },
+  {
+    "id": "extra-07",
+    "name": "Kalos — Ésika",
+    "category": "perfumes",
+    "description": "Fragancia masculina de carácter clásico y elegante.",
+    "tags": "Perfume · Masculino",
+    "image": "assets/catalog-transparent/extra-07.png"
+  },
+  {
+    "id": "extra-08",
+    "name": "Kalos Sport — Ésika",
+    "category": "perfumes",
+    "description": "Fragancia masculina deportiva, fresca y dinámica.",
+    "tags": "Perfume · Deportivo",
+    "image": "assets/catalog-transparent/extra-08.png"
+  },
+  {
+    "id": "extra-09",
+    "name": "Magnat Exclusive — Ésika",
+    "category": "perfumes",
+    "description": "Fragancia masculina intensa con una imagen elegante y sofisticada.",
+    "tags": "Perfume · Masculino",
+    "image": "assets/catalog-transparent/extra-09.png"
+  },
+  {
+    "id": "extra-10",
+    "name": "D’Orsay Grand",
+    "category": "perfumes",
+    "description": "Fragancia masculina de carácter sobrio y envolvente.",
+    "tags": "Perfume · Masculino",
+    "image": "assets/catalog-transparent/extra-10.png"
+  },
+  {
+    "id": "extra-11",
+    "name": "Magnat Elite — Ésika",
+    "category": "perfumes",
+    "description": "Fragancia masculina de presencia fuerte y contemporánea.",
+    "tags": "Perfume · Masculino",
+    "image": "assets/catalog-transparent/extra-11.png"
+  },
+  {
+    "id": "extra-12",
+    "name": "Reloj Cronógrafo Deportivo",
+    "category": "accesorios",
+    "description": "Reloj deportivo de gran presencia con correa y detalles de cronógrafo.",
+    "tags": "Relojes · Accesorios",
+    "image": "assets/catalog-transparent/extra-12.png"
+  },
+  {
+    "id": "extra-13",
+    "name": "Reloj Esika Verde",
+    "category": "accesorios",
+    "description": "Reloj de pulsera con esfera verde y brazalete metálico.",
+    "tags": "Relojes · Accesorios",
+    "image": "assets/catalog-transparent/extra-13.png"
+  },
+  {
+    "id": "extra-14",
+    "name": "Reloj Esika Clásico",
+    "category": "accesorios",
+    "description": "Reloj de pulsera con esfera oscura y correa de cuero.",
+    "tags": "Relojes · Accesorios",
+    "image": "assets/catalog-transparent/extra-14.png"
+  },
+  {
+    "id": "extra-15",
+    "name": "Reloj Metálico Plateado",
+    "category": "accesorios",
+    "description": "Reloj de pulsera con brazalete metálico y esfera clara.",
+    "tags": "Relojes · Accesorios",
+    "image": "assets/catalog-transparent/extra-15.png"
+  },
+  {
+    "id": "extra-16",
+    "name": "Reloj Rojo",
+    "category": "accesorios",
+    "description": "Reloj de estilo juvenil con correa roja y esfera destacada.",
+    "tags": "Relojes · Accesorios",
+    "image": "assets/catalog-transparent/extra-16.png"
+  },
+  {
+    "id": "extra-17",
+    "name": "Triple Action Esika",
+    "category": "skincare",
+    "description": "Crema facial de textura ligera para complementar la rutina de cuidado.",
+    "tags": "Skincare · Cuidado",
+    "image": "assets/catalog-transparent/extra-17.png"
+  },
+  {
+    "id": "extra-18",
+    "name": "You — Ésika",
+    "category": "perfumes",
+    "description": "Fragancia limpia y ligera con una presentación sencilla y moderna.",
+    "tags": "Perfume · Fresco",
+    "image": "assets/catalog-transparent/extra-18.png"
+  },
+  {
+    "id": "extra-19",
+    "name": "Momentos — Ésika",
+    "category": "perfumes",
+    "description": "Fragancia fresca y luminosa de presentación turquesa.",
+    "tags": "Perfume · Fresco",
+    "image": "assets/catalog-transparent/extra-19.png"
+  },
+  {
+    "id": "extra-20",
+    "name": "Momentos — Ésika",
+    "category": "perfumes",
+    "description": "Otra presentación de la fragancia Momentos, fresca y luminosa.",
+    "tags": "Perfume · Fresco",
+    "image": "assets/catalog-transparent/extra-20.png"
+  },
+  {
+    "id": "extra-21",
+    "name": "Perfume de presentación oscura",
+    "category": "perfumes",
+    "description": "Fragancia de presentación oscura y elegante.",
+    "tags": "Perfume · Elegante",
+    "image": "assets/catalog-transparent/extra-21.png"
+  },
+  {
+    "id": "extra-22",
+    "name": "Accesorio de bolsillo",
+    "category": "accesorios",
+    "description": "Accesorio compacto de diseño sobrio para uso cotidiano.",
+    "tags": "Accesorios",
+    "image": "assets/catalog-transparent/extra-22.png"
+  },
+  {
+    "id": "extra-23",
+    "name": "Y25 — Cyzone",
+    "category": "perfumes",
+    "description": "Fragancia juvenil de estética moderna y expresiva.",
+    "tags": "Perfume · Juvenil",
+    "image": "assets/catalog-transparent/extra-23.png"
+  }
+]

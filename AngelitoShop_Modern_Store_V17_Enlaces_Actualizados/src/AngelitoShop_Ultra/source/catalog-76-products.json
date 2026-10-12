@@ -1,0 +1,610 @@
+[
+  {
+    "id": "pdf-01",
+    "name": "L’Bel Especialiste — Concentrado Antimanchas",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/01.png"
+  },
+  {
+    "id": "pdf-02",
+    "name": "L’Bel Nocturne — Renovación con Ácido Hialurónico",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/02.png"
+  },
+  {
+    "id": "pdf-03",
+    "name": "L’Bel — Tratamiento Facial de Hidratación",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/03.png"
+  },
+  {
+    "id": "pdf-04",
+    "name": "L’Bel Essential — Agua Micelar",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/04.png"
+  },
+  {
+    "id": "pdf-05",
+    "name": "L’Bel Concentré Cell+ Pro-Hialurónico 30+",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/05.png"
+  },
+  {
+    "id": "pdf-06",
+    "name": "L’Bel Concentré Cell+ — Ácido Hialurónico + FPS",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/06.png"
+  },
+  {
+    "id": "pdf-07",
+    "name": "Ésika Hidraserum Glow Pro",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/07.png"
+  },
+  {
+    "id": "pdf-08",
+    "name": "Ésika — Labial Líquido de Larga Duración",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/08.png"
+  },
+  {
+    "id": "pdf-09",
+    "name": "Ésika Matte Pro — Base de Larga Duración FPS 15",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/09.png"
+  },
+  {
+    "id": "pdf-10",
+    "name": "Ésika Colorfix — Maquillaje Compacto + Color",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/10.png"
+  },
+  {
+    "id": "pdf-11",
+    "name": "Ésika — Paleta de Sombras",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/11.png"
+  },
+  {
+    "id": "pdf-12",
+    "name": "Ésika City Love — Perfume Dúo",
+    "category": "perfumes",
+    "description": "Fragancia de Belcorp con una presentación elegante, pensada para complementar tu estilo y dejar una impresión agradable.",
+    "tags": "Perfumes · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/12.png"
+  },
+  {
+    "id": "pdf-13",
+    "name": "Ésika — Crema Facial de Cuidado Diario",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/13.png"
+  },
+  {
+    "id": "pdf-14",
+    "name": "Ésika Multiacción — Sérum Facial",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/14.png"
+  },
+  {
+    "id": "pdf-15",
+    "name": "Ésika Multiacción — Suero y Crema Facial Antiedad",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/15.png"
+  },
+  {
+    "id": "pdf-16",
+    "name": "Ésika — Tratamiento Facial de Triple Acción",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/16.png"
+  },
+  {
+    "id": "pdf-17",
+    "name": "Ésika — Protector Solar Facial FPS 50",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/17.png"
+  },
+  {
+    "id": "pdf-18",
+    "name": "L’Bel — Aretes Colgantes con Detalle Dorado",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/18.png"
+  },
+  {
+    "id": "pdf-19",
+    "name": "L’Bel — Aretes Colgantes de Diseño Floral",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/19.png"
+  },
+  {
+    "id": "pdf-20",
+    "name": "L’Bel — Collar Dorado con Dije",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/20.png"
+  },
+  {
+    "id": "pdf-21",
+    "name": "L’Bel — Collar Dorado con Corazón",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/21.png"
+  },
+  {
+    "id": "pdf-22",
+    "name": "L’Bel — Pulsera Dorada con Dijes",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/22.png"
+  },
+  {
+    "id": "pdf-23",
+    "name": "L’Bel — Set de Collar y Aretes",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/23.png"
+  },
+  {
+    "id": "pdf-24",
+    "name": "L’Bel — Pulsera Dorada con Dijes",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/24.png"
+  },
+  {
+    "id": "pdf-25",
+    "name": "L’Bel — Aretes Largos Plateados",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/25.png"
+  },
+  {
+    "id": "pdf-26",
+    "name": "L’Bel — Aretes Florales Plateados",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/26.png"
+  },
+  {
+    "id": "pdf-27",
+    "name": "L’Bel — Aretes Corazón Dorados",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/27.png"
+  },
+  {
+    "id": "pdf-28",
+    "name": "L’Bel — Reloj Dorado con Correa Negra",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/28.png"
+  },
+  {
+    "id": "pdf-29",
+    "name": "Ésika — Lentes de Sol de Acetato",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/29.png"
+  },
+  {
+    "id": "pdf-30",
+    "name": "Ésika — Reloj Metálico Plateado",
+    "category": "joyeria",
+    "description": "Accesorio de diseño elegante que aporta un detalle especial y combina fácilmente con distintos looks.",
+    "tags": "Joyeria · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/30.png"
+  },
+  {
+    "id": "pdf-31",
+    "name": "Ésika — Crema Corporal con Dosificador",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/31.png"
+  },
+  {
+    "id": "pdf-32",
+    "name": "Ésika — Desodorantes en Spray",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/32.png"
+  },
+  {
+    "id": "pdf-33",
+    "name": "Ésika — Perfume Dúo Floral",
+    "category": "perfumes",
+    "description": "Fragancia de Belcorp con una presentación elegante, pensada para complementar tu estilo y dejar una impresión agradable.",
+    "tags": "Perfumes · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/33.png"
+  },
+  {
+    "id": "pdf-34",
+    "name": "Cyzone — Labial / Gloss de Color",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/34.png"
+  },
+  {
+    "id": "pdf-35",
+    "name": "Cyzone — Perfume Icon",
+    "category": "perfumes",
+    "description": "Fragancia de Belcorp con una presentación elegante, pensada para complementar tu estilo y dejar una impresión agradable.",
+    "tags": "Perfumes · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/35.png"
+  },
+  {
+    "id": "pdf-36",
+    "name": "Cyzone Illusion — Perfume",
+    "category": "perfumes",
+    "description": "Fragancia de Belcorp con una presentación elegante, pensada para complementar tu estilo y dejar una impresión agradable.",
+    "tags": "Perfumes · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/36.png"
+  },
+  {
+    "id": "pdf-37",
+    "name": "Cyzone — Bolso de Mano Beige",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/37.png"
+  },
+  {
+    "id": "pdf-38",
+    "name": "Cyzone — Bolso de Mano Blanco",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/38.png"
+  },
+  {
+    "id": "pdf-39",
+    "name": "Cyzone — Bolso Crossbody Negro",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/39.png"
+  },
+  {
+    "id": "pdf-40",
+    "name": "Cyzone — Bolso Crossbody Café",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/40.png"
+  },
+  {
+    "id": "pdf-41",
+    "name": "Cyzone — Bolso de Mano Rosa",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/41.png"
+  },
+  {
+    "id": "pdf-42",
+    "name": "Cyzone — Mochila Urbana Beige",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/42.png"
+  },
+  {
+    "id": "pdf-43",
+    "name": "Cyzone — Crossbody Rosa",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/43.png"
+  },
+  {
+    "id": "pdf-44",
+    "name": "Cyzone — Bolso Deportivo Rosa",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/44.png"
+  },
+  {
+    "id": "pdf-45",
+    "name": "Cyzone — Neceser de Maquillaje",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/45.png"
+  },
+  {
+    "id": "pdf-46",
+    "name": "Cyzone — Bolso Deportivo Azul",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/46.png"
+  },
+  {
+    "id": "pdf-47",
+    "name": "Cyzone — Bolsos Estampados",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/47.png"
+  },
+  {
+    "id": "pdf-48",
+    "name": "Cyzone — Cartera Negra",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/48.png"
+  },
+  {
+    "id": "pdf-49",
+    "name": "Cyzone — Organizador de Viaje",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/49.png"
+  },
+  {
+    "id": "pdf-50",
+    "name": "Cyzone — Riñonera Morada",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/50.png"
+  },
+  {
+    "id": "pdf-51",
+    "name": "Cyzone — Botella Sport Rosa",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/51.png"
+  },
+  {
+    "id": "pdf-52",
+    "name": "Cyzone — Riñonera Negra",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/52.png"
+  },
+  {
+    "id": "pdf-53",
+    "name": "Cyzone — Set de Organizadores",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/53.png"
+  },
+  {
+    "id": "pdf-54",
+    "name": "Cyzone — Porta Brochas / Organizador",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/54.png"
+  },
+  {
+    "id": "pdf-55",
+    "name": "Cyzone — Neceser de Viaje",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/55.png"
+  },
+  {
+    "id": "pdf-56",
+    "name": "Cyzone — Mochila Urbana Azul",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/56.png"
+  },
+  {
+    "id": "pdf-57",
+    "name": "Cyzone — Mochila Rosa",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/57.png"
+  },
+  {
+    "id": "pdf-58",
+    "name": "Cyzone — Mochila Negra con Detalles Rosa",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/58.png"
+  },
+  {
+    "id": "pdf-59",
+    "name": "Cyzone — Neceser Morado",
+    "category": "accesorios",
+    "description": "Accesorio práctico y moderno para organizar, transportar o complementar tus artículos de uso diario.",
+    "tags": "Accesorios · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/59.png"
+  },
+  {
+    "id": "pdf-60",
+    "name": "Cyzone — Crema Corporal Sandía",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/60.png"
+  },
+  {
+    "id": "pdf-61",
+    "name": "Cyzone — Gel Limpiador Facial Skin First",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/61.png"
+  },
+  {
+    "id": "pdf-62",
+    "name": "Cyzone Skin First — Protector Solar Facial Mate FPS 50",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/62.png"
+  },
+  {
+    "id": "pdf-63",
+    "name": "Cyzone Skin First — Protector Solar Facial FPS 50",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/63.png"
+  },
+  {
+    "id": "pdf-64",
+    "name": "Cyzone — Labiales en Dúo",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/64.png"
+  },
+  {
+    "id": "pdf-65",
+    "name": "Cyzone — Rubores y Blush en Set",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/65.png"
+  },
+  {
+    "id": "pdf-66",
+    "name": "Cyzone — Polvo Matte de Larga Duración",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/66.png"
+  },
+  {
+    "id": "pdf-67",
+    "name": "Cyzone — Corrector Líquido",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/67.png"
+  },
+  {
+    "id": "pdf-68",
+    "name": "Cyzone — Tinta / Brillo Labial",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/68.png"
+  },
+  {
+    "id": "pdf-69",
+    "name": "Cyzone Studio Look — Labial Líquido",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/69.png"
+  },
+  {
+    "id": "pdf-70",
+    "name": "Cyzone Studio Look — Labial",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/70.png"
+  },
+  {
+    "id": "pdf-71",
+    "name": "Cyzone Studio Look — Perfect Glow",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/71.png"
+  },
+  {
+    "id": "pdf-72",
+    "name": "Cyzone Studio Look — Matte Finish",
+    "category": "cuidado",
+    "description": "Producto de cuidado personal de Belcorp pensado para acompañar tu rutina diaria de belleza y cuidado.",
+    "tags": "Cuidado · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/72.png"
+  },
+  {
+    "id": "pdf-73",
+    "name": "Cyzone Studio Look — Base de Alta Cobertura FPS 20",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/73.png"
+  },
+  {
+    "id": "pdf-74",
+    "name": "Cyzone Studio Look — Base de Maquillaje",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/74.png"
+  },
+  {
+    "id": "pdf-75",
+    "name": "Cyzone Studio Look — Lápiz de Ojos",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/75.png"
+  },
+  {
+    "id": "pdf-76",
+    "name": "Cyzone Studio Look — Máscara de Pestañas",
+    "category": "maquillaje",
+    "description": "Producto de maquillaje pensado para aportar color, definición y un acabado cuidado al look.",
+    "tags": "Maquillaje · Catálogo Belcorp México",
+    "image": "assets/catalog-transparent/76.png"
+  }
+]
