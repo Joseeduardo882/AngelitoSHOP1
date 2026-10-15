@@ -1,0 +1,522 @@
+[
+  {
+    "id": "01",
+    "name": "Perfume Oriental Dulce — Alta Perfumería Francesa",
+    "category": "perfumes",
+    "description": "Un aroma sofisticado de carácter dulce y floral, pensado para dejar una estela elegante.",
+    "tags": "Magnolia blanca · cálido · sofisticado",
+    "image": "assets/catalog/products/p-01.webp"
+  },
+  {
+    "id": "02",
+    "name": "Bálsamo Muscular con Árnica, Cúrcuma y Menta",
+    "category": "cuidado",
+    "description": "Sensación reconfortante para después de un día activo. Fórmula con ingredientes botánicos conocidos por su efecto refrescante.",
+    "tags": "Árnica · cúrcuma · menta",
+    "image": "assets/catalog/products/p-02.webp"
+  },
+  {
+    "id": "03",
+    "name": "Shampoo Matizador",
+    "category": "cabello",
+    "description": "Ayuda a neutralizar tonos amarillos y a realzar reflejos beige y platinados mientras aporta humectación.",
+    "tags": "Matizador · brillo · tonos fríos",
+    "image": "assets/catalog/products/p-03.webp"
+  },
+  {
+    "id": "04",
+    "name": "Studio Look — Cloud Nude 11813",
+    "category": "maquillaje",
+    "description": "Labial Studio Look de acabado elegante en un nude suave y sofisticado.",
+    "tags": "Tono Cloud Nude · Studio Look",
+    "image": "assets/catalog/products/p-04.webp"
+  },
+  {
+    "id": "05",
+    "name": "Cyzone — Rose Ibiza",
+    "category": "maquillaje",
+    "description": "Color rosado de inspiración fresca para un look femenino y luminoso.",
+    "tags": "Rose Ibiza · Cyzone",
+    "image": "assets/catalog/products/p-05.webp"
+  },
+  {
+    "id": "06",
+    "name": "Studio Look — Pixel Rose",
+    "category": "maquillaje",
+    "description": "Tono rosa de la colección Studio Look para labios con presencia y acabado moderno.",
+    "tags": "Tono Pixel Rose · Studio Look",
+    "image": "assets/catalog/products/p-06.webp"
+  },
+  {
+    "id": "07",
+    "name": "Studio Look — Redwood",
+    "category": "maquillaje",
+    "description": "Tono intenso y elegante para un maquillaje de labios con carácter.",
+    "tags": "Redwood · Studio Look",
+    "image": "assets/catalog/products/p-07.webp"
+  },
+  {
+    "id": "08",
+    "name": "Studio Look — Nude Tulum",
+    "category": "maquillaje",
+    "description": "Nude cálido y versátil para crear un look natural, limpio y sofisticado.",
+    "tags": "Nude Tulum · Studio Look",
+    "image": "assets/catalog/products/p-08.webp"
+  },
+  {
+    "id": "09",
+    "name": "Terramar — Tratamiento Como las Perlas",
+    "category": "skincare",
+    "description": "Cuidado facial inspirado en activos perlados para humectar, suavizar y mejorar la apariencia de la piel.",
+    "tags": "Hidratación · suavidad · rostro",
+    "image": "assets/catalog/products/p-09.webp"
+  },
+  {
+    "id": "10",
+    "name": "Labial — Rojo Cherry",
+    "category": "maquillaje",
+    "description": "Rojo intenso para un look clásico y llamativo.",
+    "tags": "Rojo · alta pigmentación",
+    "image": "assets/catalog/products/p-10.webp"
+  },
+  {
+    "id": "11",
+    "name": "Labial Mate — Larga Duración",
+    "category": "maquillaje",
+    "description": "Acabado mate con enfoque en duración prolongada y menor transferencia.",
+    "tags": "24 h · mate · no transfer",
+    "image": "assets/catalog/products/p-11.webp"
+  },
+  {
+    "id": "12",
+    "name": "Labial — Rojo Intenso",
+    "category": "maquillaje",
+    "description": "Un rojo profundo y clásico que eleva cualquier maquillaje.",
+    "tags": "Rojo intenso · acabado elegante",
+    "image": "assets/catalog/products/p-12.webp"
+  },
+  {
+    "id": "13",
+    "name": "Aceite Corporal Perfumado",
+    "category": "cuidado",
+    "description": "Textura ligera para acompañar tu rutina de cuidado con una sensación aromática y envolvente.",
+    "tags": "Aroma · hidratación · cuerpo",
+    "image": "assets/catalog/products/p-13.webp"
+  },
+  {
+    "id": "14",
+    "name": "Labial Líquido — Brillo y Color",
+    "category": "maquillaje",
+    "description": "Color de labios con efecto cómodo y acabado visualmente luminoso.",
+    "tags": "Color · brillo · labios",
+    "image": "assets/catalog/products/p-14.webp"
+  },
+  {
+    "id": "15",
+    "name": "Studio Look — Pink Nude",
+    "category": "maquillaje",
+    "description": "Nude rosado para un look suave, moderno y fácil de combinar.",
+    "tags": "Pink Nude · Studio Look",
+    "image": "assets/catalog/products/p-15.webp"
+  },
+  {
+    "id": "17",
+    "name": "Tratamiento de Manos — Fórmula Aclaradora",
+    "category": "skincare",
+    "description": "Combinación de ingredientes orientada al cuidado, suavidad y apariencia uniforme de las manos.",
+    "tags": "Manos · cuidado · suavidad",
+    "image": "assets/catalog/products/p-17.webp"
+  },
+  {
+    "id": "18",
+    "name": "Studio Look — Colección de Labiales",
+    "category": "maquillaje",
+    "description": "Selección visual de tonos Studio Look para distintos estilos de maquillaje.",
+    "tags": "Labios · tonos · colección",
+    "image": "assets/catalog/products/p-18.webp"
+  },
+  {
+    "id": "19",
+    "name": "Forever — Barra Rouge Passion",
+    "category": "maquillaje",
+    "description": "Rouge Passion: un tono pasional y profundo para destacar los labios.",
+    "tags": "Rouge Passion · barra",
+    "image": "assets/catalog/products/p-19.webp"
+  },
+  {
+    "id": "20",
+    "name": "Labial Mate — Rojo Intenso",
+    "category": "maquillaje",
+    "description": "Color rojo de alto impacto para un acabado definido y elegante.",
+    "tags": "Rojo · mate",
+    "image": "assets/catalog/products/p-20.webp"
+  },
+  {
+    "id": "21",
+    "name": "Agua Micelar 5 en 1",
+    "category": "skincare",
+    "description": "Limpieza facial de triple acción para rostro, ojos y labios; ayuda a retirar maquillaje y suciedad.",
+    "tags": "Micelar · limpieza · 5 en 1",
+    "image": "assets/catalog/products/p-21.webp"
+  },
+  {
+    "id": "22",
+    "name": "Bálsamo Labial — Brillo y Color",
+    "category": "maquillaje",
+    "description": "Sensación refrescante, textura ligera e hidratación para labios con un toque de color.",
+    "tags": "Hidratación · brillo · color",
+    "image": "assets/catalog/products/p-22.webp"
+  },
+  {
+    "id": "23",
+    "name": "Labial — Cherry Ice",
+    "category": "maquillaje",
+    "description": "Tono cherry con una vibra fresca y juvenil para destacar el look.",
+    "tags": "Cherry Ice · labios",
+    "image": "assets/catalog/products/p-23.webp"
+  },
+  {
+    "id": "24",
+    "name": "Ubel Defense Total — Protección Solar",
+    "category": "skincare",
+    "description": "Protección facial enfocada en manchas y tono uniforme, con filtros solares.",
+    "tags": "FPS · manchas · rostro",
+    "image": "assets/catalog/products/p-24.webp"
+  },
+  {
+    "id": "25",
+    "name": "King Weed — Seductor",
+    "category": "perfumes",
+    "description": "Fragancia de perfil maderoso y magnético, con una presencia intensa y envolvente.",
+    "tags": "Maderoso · magnético · seductor",
+    "image": "assets/catalog/products/p-25.webp"
+  },
+  {
+    "id": "26",
+    "name": "L’Bel — Dreamer",
+    "category": "perfumes",
+    "description": "Fragancia femenina de estilo soñador, floral y envolvente.",
+    "tags": "Dreamer · L’Bel",
+    "image": "assets/catalog/products/p-26.webp"
+  },
+  {
+    "id": "27",
+    "name": "L’Bel — Bouquet de Flores Blancas",
+    "category": "perfumes",
+    "description": "Bouquet floral con una sensación limpia, elegante y femenina.",
+    "tags": "Flores blancas · floral",
+    "image": "assets/catalog/products/p-27.webp"
+  },
+  {
+    "id": "28",
+    "name": "Ésika — Vibranza",
+    "category": "perfumes",
+    "description": "Perfume oriental dulce de muy alta concentración. Sus notas incluyen arándano, flor de café y vainilla de Madagascar.",
+    "tags": "Oriental dulce · arándano · café · vainilla",
+    "image": "assets/catalog/products/p-28.webp"
+  },
+  {
+    "id": "29",
+    "name": "Mascarilla Intensiva para Cabello con Argán",
+    "category": "cabello",
+    "description": "Tratamiento intensivo de 2 minutos con extractos de algas, macadamia y aceite de argán.",
+    "tags": "Argán · macadamia · 2 minutos",
+    "image": "assets/catalog/products/p-29.webp"
+  },
+  {
+    "id": "30",
+    "name": "Cyzone Studio Look — Teddy",
+    "category": "maquillaje",
+    "description": "Labial mate Studio Look en tono Teddy, pensado para un acabado elegante y de larga duración.",
+    "tags": "Teddy · mate · Studio Look",
+    "image": "assets/catalog/products/p-30.webp"
+  },
+  {
+    "id": "31",
+    "name": "Protector Facial Ultra Ligero FPS 50+",
+    "category": "skincare",
+    "description": "Protección muy alta con sensación ligera, seca y sedosa, sin dejar una sensación grasa.",
+    "tags": "FPS 50+ · ligero · antioxidante",
+    "image": "assets/catalog/products/p-31.webp"
+  },
+  {
+    "id": "32",
+    "name": "Polvos Sueltos Extra Finos",
+    "category": "maquillaje",
+    "description": "Polvo suelto de textura fina para ayudar a emparejar y sellar el maquillaje.",
+    "tags": "Polvo · sellado · maquillaje",
+    "image": "assets/catalog/products/p-32.webp"
+  },
+  {
+    "id": "33",
+    "name": "Ésika — Impredecible Mysterious",
+    "category": "perfumes",
+    "description": "Fragancia oriental dulce con perfil femenino y sensual. Una opción para quienes buscan una presencia misteriosa.",
+    "tags": "Oriental dulce · sensual · Impredecible",
+    "image": "assets/catalog/products/p-33.webp"
+  },
+  {
+    "id": "34",
+    "name": "Fragancia Masculina — Azul Intensa",
+    "category": "perfumes",
+    "description": "Perfume de carácter fresco e intenso, presentado en un frasco azul profundo.",
+    "tags": "Fresco · intenso · masculino",
+    "image": "assets/catalog/products/p-34.webp"
+  },
+  {
+    "id": "35",
+    "name": "Perfume Oriental Dulce Amaderado",
+    "category": "perfumes",
+    "description": "Aroma adictivo con frutos rojos, almizcle cálido y sándalo envolvente.",
+    "tags": "Frutos rojos · almizcle · sándalo",
+    "image": "assets/catalog/products/p-35.webp"
+  },
+  {
+    "id": "36",
+    "name": "Ésika — YOU",
+    "category": "perfumes",
+    "description": "Fragancia de la línea YOU, fresca y fácil de llevar para el día a día.",
+    "tags": "YOU · fragancia",
+    "image": "assets/catalog/products/p-36.webp"
+  },
+  {
+    "id": "37",
+    "name": "Perfume Oriental Dulce Frutal",
+    "category": "perfumes",
+    "description": "Aroma dulce con vainilla, manzana y caramelo para una sensación frutal y envolvente.",
+    "tags": "Vainilla · manzana · caramelo",
+    "image": "assets/catalog/products/p-37.webp"
+  },
+  {
+    "id": "38",
+    "name": "Perfume Floral — Alta Duración",
+    "category": "perfumes",
+    "description": "Aroma floral adictivo con concentración alta y larga duración.",
+    "tags": "Floral · alta duración",
+    "image": "assets/catalog/products/p-38.webp"
+  },
+  {
+    "id": "39",
+    "name": "Cyzone — Glowy Stain Strawberry",
+    "category": "maquillaje",
+    "description": "Tinte/glowy stain de inspiración strawberry para labios con color fresco.",
+    "tags": "Strawberry · glowy · labios",
+    "image": "assets/catalog/products/p-39.webp"
+  },
+  {
+    "id": "40",
+    "name": "L’Bel — Aroma Herbal Cítrico",
+    "category": "perfumes",
+    "description": "Bergamota, lavanda y cedro construyen un perfil fresco, cítrico y sofisticado.",
+    "tags": "Bergamota · lavanda · cedro",
+    "image": "assets/catalog/products/p-40.webp"
+  },
+  {
+    "id": "41",
+    "name": "Sweet — Fragancia Oriental Dulce",
+    "category": "perfumes",
+    "description": "Perfume de perfil oriental dulce con matices sensuales y cálidos.",
+    "tags": "Oriental dulce · cálido",
+    "image": "assets/catalog/products/p-41.webp"
+  },
+  {
+    "id": "42",
+    "name": "L’Bel — Floral Dulce de Frambuesa Negra",
+    "category": "perfumes",
+    "description": "Esencia floral dulce con frambuesa negra y una sensación de alta perfumería.",
+    "tags": "Frambuesa negra · floral · dulce",
+    "image": "assets/catalog/products/p-42.webp"
+  },
+  {
+    "id": "43",
+    "name": "Máscara de Pestañas a Prueba de Agua",
+    "category": "maquillaje",
+    "description": "Máscara oftalmológicamente probada, diseñada para resistir el agua y definir las pestañas.",
+    "tags": "Waterproof · pestañas",
+    "image": "assets/catalog/products/p-43.webp"
+  },
+  {
+    "id": "44",
+    "name": "Perfume — Aroma Cítrico Floral",
+    "category": "perfumes",
+    "description": "Fragancia fresca y luminosa con una vibra cítrica-floral para el día.",
+    "tags": "Cítrico · floral · fresco",
+    "image": "assets/catalog/products/p-44.webp"
+  },
+  {
+    "id": "45",
+    "name": "Labial Studio Look — Mocca",
+    "category": "maquillaje",
+    "description": "Tono Mocca para un maquillaje de labios cálido, elegante y natural.",
+    "tags": "Mocca · Studio Look",
+    "image": "assets/catalog/products/p-45.webp"
+  },
+  {
+    "id": "46",
+    "name": "Ésika — Impredecible",
+    "category": "perfumes",
+    "description": "Fragancia femenina oriental dulce, sensual y de larga duración.",
+    "tags": "Impredecible · oriental dulce",
+    "image": "assets/catalog/products/p-46.webp"
+  },
+  {
+    "id": "47",
+    "name": "Studio Look — Rose Nude",
+    "category": "maquillaje",
+    "description": "Nude rosado para un acabado sofisticado y natural.",
+    "tags": "Rose Nude · Studio Look",
+    "image": "assets/catalog/products/p-47.webp"
+  },
+  {
+    "id": "48",
+    "name": "Perfume Floral Frutal — Iris, Pera y Bergamota",
+    "category": "perfumes",
+    "description": "Elixir floral frutal con iris francés, pera y bergamota dorada.",
+    "tags": "Iris · pera · bergamota",
+    "image": "assets/catalog/products/p-48.webp"
+  },
+  {
+    "id": "49",
+    "name": "Dúo de Fragancias — Azul & Ámbar",
+    "category": "perfumes",
+    "description": "Presentación de dos fragancias para alternar perfiles frescos e intensos.",
+    "tags": "Dúo · fragancias",
+    "image": "assets/catalog/products/p-49.webp"
+  },
+  {
+    "id": "50",
+    "name": "Studio Look — Blossom Nude",
+    "category": "maquillaje",
+    "description": "Nude cálido inspirado en tonos florales y naturales.",
+    "tags": "Blossom Nude · Studio Look",
+    "image": "assets/catalog/products/p-50.webp"
+  },
+  {
+    "id": "51",
+    "name": "Labial — Rosa Mexicano",
+    "category": "maquillaje",
+    "description": "Rosa intenso y vibrante para darle fuerza al maquillaje de labios.",
+    "tags": "Rosa mexicano · intenso",
+    "image": "assets/catalog/products/p-51.webp"
+  },
+  {
+    "id": "52",
+    "name": "Protector Solar — Alta Protección para la Piel",
+    "category": "skincare",
+    "description": "Protección diaria pensada para cuidar la piel sin interferir con el maquillaje.",
+    "tags": "Protección · piel · maquillaje",
+    "image": "assets/catalog/products/p-52.webp"
+  },
+  {
+    "id": "53",
+    "name": "Labial Hidratante — Rosa",
+    "category": "maquillaje",
+    "description": "Color rosa con sensación hidratante y acabado cómodo para uso diario.",
+    "tags": "Rosa · hidratante · 24 h",
+    "image": "assets/catalog/products/p-53.webp"
+  },
+  {
+    "id": "54",
+    "name": "Máscara de Pestañas — Definición y Volumen",
+    "category": "maquillaje",
+    "description": "Ayuda a definir y aportar volumen sin grumos, con vitaminas y ceramidas.",
+    "tags": "Volumen · definición · ceramidas",
+    "image": "assets/catalog/products/p-54.webp"
+  },
+  {
+    "id": "55",
+    "name": "Labial — Caramel Latte",
+    "category": "maquillaje",
+    "description": "Tono Caramel Latte, cálido y sofisticado para un look suave.",
+    "tags": "Caramel Latte · nude",
+    "image": "assets/catalog/products/p-55.webp"
+  },
+  {
+    "id": "56",
+    "name": "Máscara — Insuperable",
+    "category": "maquillaje",
+    "description": "Fórmula enfocada en pestañas visualmente más largas y crecimiento.",
+    "tags": "Longitud · pestañas",
+    "image": "assets/catalog/products/p-56.webp"
+  },
+  {
+    "id": "57",
+    "name": "Iluminador On The Glow",
+    "category": "maquillaje",
+    "description": "Textura cremosa ultrasuave para aportar luz con sensación ligera y cómoda.",
+    "tags": "Iluminador · glow · cremoso",
+    "image": "assets/catalog/products/p-57.webp"
+  },
+  {
+    "id": "58",
+    "name": "L’Bel Bleu — Herbal Aromática",
+    "category": "perfumes",
+    "description": "Aroma herbal aromático con sensación fresca de olas y notas de salvia.",
+    "tags": "Herbal · salvia · fresco",
+    "image": "assets/catalog/products/p-58.webp"
+  },
+  {
+    "id": "59",
+    "name": "Agua Micelar — 5X Poder Desmaquillante",
+    "category": "skincare",
+    "description": "Remueve incluso maquillaje a prueba de agua con una limpieza práctica.",
+    "tags": "Desmaquillante · waterproof",
+    "image": "assets/catalog/products/p-59.webp"
+  },
+  {
+    "id": "60",
+    "name": "L’Bel — Magnetic",
+    "category": "perfumes",
+    "description": "Fragancia oriental especiada con notas de cedro y pimienta negra para una presencia magnética.",
+    "tags": "Oriental especiada · cedro · pimienta",
+    "image": "assets/catalog/products/p-60.webp"
+  },
+  {
+    "id": "61",
+    "name": "Perfume Cítrico — Alta Calidad",
+    "category": "perfumes",
+    "description": "Fragancia fresca y luminosa con tecnología de alta calidad y duración.",
+    "tags": "Cítrico · fresco · larga duración",
+    "image": "assets/catalog/products/p-61.webp"
+  },
+  {
+    "id": "62",
+    "name": "Fragancia Azul — EssentTech",
+    "category": "perfumes",
+    "description": "Fragancia de alta calidad con tecnología EssentTech para maximizar calidad y duración.",
+    "tags": "EssentTech · larga duración",
+    "image": "assets/catalog/products/p-62.webp"
+  },
+  {
+    "id": "63",
+    "name": "L’Bel — Frutos Rojos, Grosella y Vainilla Negra",
+    "category": "perfumes",
+    "description": "Aroma frutal dulce con frutos rojos, grosella y vainilla negra.",
+    "tags": "Frutos rojos · grosella · vainilla",
+    "image": "assets/catalog/products/p-63.webp"
+  },
+  {
+    "id": "64",
+    "name": "Cyzone — Glowy Stain Pink Lemonade",
+    "category": "maquillaje",
+    "description": "Glowy Stain en tono Pink Lemonade para un efecto fresco y luminoso.",
+    "tags": "Pink Lemonade · glowy",
+    "image": "assets/catalog/products/p-64.webp"
+  },
+  {
+    "id": "65",
+    "name": "Perfume Oriental Especiado — Bergamota & Ámbar",
+    "category": "perfumes",
+    "description": "Notas de bergamota, pimienta Timut y ámbar en una fragancia intensa y sofisticada.",
+    "tags": "Bergamota · pimienta Timut · ámbar",
+    "image": "assets/catalog/products/p-65.webp"
+  },
+  {
+    "id": "66",
+    "name": "Perfume Floral Amaderado — Alta Concentración",
+    "category": "perfumes",
+    "description": "Aroma floral amaderado con notas de champagne y un bouquet floral de inspiración francesa.",
+    "tags": "Floral amaderado · champagne",
+    "image": "assets/catalog/products/p-66.webp"
+  }
+]
